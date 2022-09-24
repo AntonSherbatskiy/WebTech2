@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0px;
+}
+
+.header {
+    height: 72px;
+    width: auto;
+    text-align: right;
+    color: #e5e9f2;
+    background-color: #0b0d17;
+}
+
+.top-text {
+    padding-top: 1.2%;
+    top: 0px;
+    bottom: 0px;
+    padding-left: 15%;
+    padding-right: 1%;
+}
+
+.top-tagline {
+    position: absolute;
+    text-align: left;
+    padding-left: 5%;
+    line-height: 73px;
+}
+
+.top-line, .bottom-line {
+    display: inline;
+    line-height: 72px;
+}
+
+.footer {
+    position: absolute;
+    background: #0b0d17;
+    height: 72px;
+    width: 100%;
+    bottom: 0px;
+}
+
+.menu {
+    position: absolute;
+    left: 0px;
+    width: 16%;
+    height: 88%;
+    background-color:beige;
+    color: #e5e9f2;
+}
+
+.bottom-tagline {
+    right: 1.5%;
+    position: absolute;
+    text-align: right;
+    padding-right: 5%;
+    color: #e5e9f2;
+}
+
+.bottom-text {
+    padding-left: 1%;
+    top: 0px;
+    bottom: 0px;
+    padding-right: 15%;
+    color: #e5e9f2;
+    line-height: 72px;
+}
+
+.menu-list {
+    font-size: 20px;
+    list-style: none;
+    padding-top: 5%;
+}
+
+.menu-element {
+    padding-left: 10%;
+    display: block;
+    text-decoration: none;
+    color: #0b0d17;
+    padding-top: 30%;
+}
+
+.right-bottom {
+    position: absolute;
+    right: 0px;
+    background-color:antiquewhite;
+    width: 84%;
+    height: 50px;
+    text-align: right;
+    padding-top: 4px;
+}
+
+.left-bottom {
+    position: absolute;
+    left: 16%;
+    top: 84%;
+    background-color:antiquewhite;
+    width: 68%;
+    height: 53px;
+    text-align: right;
+    padding-top: 4px;
+}
+
+.right-main {
+    position: fixed;
+    right: 0px;
+    width: 17%;
+    height: 73%;
+    bottom: 10%;
+    background-color:beige;
+    text-align: right;
+    line-height: 25px;
+}
+
+.first-content {
+    position: absolute;
+    font-size: 100px;
+    width: auto;
+    height: 100px;
+    top: 40%;
+    left: 30%;
+    color:crimson;
+}
+
+.second-content, .third-content {
+    position: absolute;
+    font-size: 60px;
+    width: auto;
+    height: auto;
+    top: 17%;
+    left: 30%;
+    color:crimson;
+}
+
+.fourth-picture{
+    position: absolute;
+    top: 21%;
+    height: 380px;
+    width: 800px;
+    left: 21%;
+}
+
+.fifth-map{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 45%;
+    top: 35%;
+}
